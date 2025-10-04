@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/assets/SNI.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Société Nouvelle Informatique est une compagnie de services informatique qui accompagne les entreprises et gouvernements dans leur transition numérique.">
+    <title>Société Nouvelle Informatique</title>
+
+    <!-- Import du CSS généré par Vite + Tailwind -->
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- App React -->
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F8T8Z6FSLS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-F8T8Z6FSLS');
+    </script>
+
+    <!-- Helpscout Beacon -->
+    <script type="text/javascript">
+      !function(e,t,n){
+        function a(){
+          var e=t.getElementsByTagName("script")[0],n=t.createElement("script");
+          n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)
+        }
+        if(e.Beacon=n=function(t,n,a){
+          e.Beacon.readyQueue.push({method:t,options:n,data:a})
+        },n.readyQueue=[],"complete"===t.readyState)
+          return a();
+        e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)
+      }(window,document,window.Beacon||function(){});
+    </script>
+    <script type="text/javascript">
+      window.Beacon('init', '0f27c937-3e27-4e8e-8857-12d7ddf2c74b')
+    </script>
+  </body>
+</html>
